@@ -1,4 +1,4 @@
-[LIive Demo](https://madikirkman.com/project-two/)
+[Live Demo](https://madikirkman.com/project-two/)
 
 # Project Name
 
