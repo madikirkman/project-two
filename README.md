@@ -1,4 +1,4 @@
-[How to use this template](./.github/template/README.md)
+[LIive Demo](https://madikirkman.com/project-two/)
 
 # Project Name
 
