@@ -1,4 +1,3 @@
-
 // Get reference what you need
 var button = document.querySelector("button");
 var ul = document.querySelector("ul");
@@ -10,3 +9,5 @@ function toggle() {
 
 // Wire up the event
 button.addEventListener("click", toggle);
+
+const list = document.querySelectorAll(".list");
