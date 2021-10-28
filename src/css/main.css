@@ -4,4 +4,249 @@ img,
 video {
   width: 100%;
   height: auto;
+  object-fit: cover;
+}
+
+body {
+  background-color: #d8e3c5;
+  padding: 3rem;
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Mobile*/
+
+@media (max-width: 40em) {
+  body {
+    min-height: 100vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    grid-gap: 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 40em) {
+  main {
+    flex-direction: column;
+    background-color: #d8e3c5;
+  }
+}
+
+@media (max-width: 40em) {
+  div span {
+    display: flex;
+    margin: 10px;
+    height: 9px;
+    width: 60px;
+    background: #32492d;
+    border-radius: 0px;
+  }
+}
+
+@media (max-width: 40em) {
+  p {
+    font-family: skolar-sans-latin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #32492d;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 40em) {
+  h3 {
+    font-family: cortado, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: normal;
+    color: #32492d;
+  }
+}
+
+@media (max-width: 40em) {
+  h1 {
+    font-family: cortado, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: normal;
+    color: #32492d;
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 40em) {
+  p {
+    font-family: skolar-sans-latin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #32492d;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 40em) {
+  h3 {
+    font-family: cortado, sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-style: normal;
+    color: #32492d;
+  }
+}
+
+@media (min-width: 40em) {
+  h1 {
+    font-family: cortado, sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-style: normal;
+    color: #32492d;
+  }
+}
+
+@media (min-width: 40em) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.16);
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 40rem) {
+}
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+  .history,
+  .geology,
+  .wildlife {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #e7e18c;
+    box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.5);
+    border-radius: 1.25rem;
+    overflow: hidden;
+    max-width: 30rem;
+  }
+
+  button {
+    background-color: #32492d;
+    color: #e7e18c;
+    border-radius: 0.5rem;
+    font-family: skolar-sans-latin, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 4px 2px;
+    width: 10rem;
+    padding: 5px;
+  }
+
+  @media (min-width: 40em) {
+    body {
+      margin: 0;
+    }
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.article-title {
+  color: black;
+}
+
+.footer {
+  background-color: #32492d;
+  color: #d8e3c5;
+  font-family: skolar-sans-latin, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-style: normal;
+  text-align: center;
+  width: 100rem;
+}
+
+.article-text {
+  text-indent: 50px;
+}
+
+iframe.video {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+
+.question1 {
+  background-color: #e7e18c;
+  color: #32492d;
+  font-family: cortado, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plus {
+  position: relative;
+  border: 1px dotted #e7e18c;
+  width: 3px;
+  height: 3px;
+  background-color: #32492d;
+  box-sizing: border-box;
+  transform: scale(10);
+}
+@media (min-width: 40em) {
+  .navigation {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: #e7e18c;
+    color: black;
+  }
+}
+ul {
+  list-style-type: none;
+}
+
+.hamburger {
+  background-color: #d8e3c5;
+  border: #d8e3c5;
+}
+
+button:hover {
+  color: #d58237;
+}
+
+/* Mobile Styles Only! */
+@media (max-width: 40em) {
+  body {
+    flex-direction: column;
+  }
+}
+
+/* Desktop Styles Only! */
+@media (min-width: 40em) {
 }
